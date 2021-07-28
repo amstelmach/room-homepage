@@ -1,5 +1,9 @@
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 
-hamburgerMenu.addEventListener("click", () => {
-  console.log("clicked!");
+const menuElement = document.querySelector(".menu");
+
+const exitBtn = document.querySelector(".close-btn");
+
+hamburgerMenu.addEventListener("click", function () {
+  menuElement.classList.add("show-menu");
 });
