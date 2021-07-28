@@ -7,3 +7,7 @@ const exitBtn = document.querySelector(".close-btn");
 hamburgerMenu.addEventListener("click", function () {
   menuElement.classList.add("show-menu");
 });
+
+exitBtn.addEventListener("click", function () {
+  menuElement.classList.remove("show-menu");
+});
