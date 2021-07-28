@@ -36,3 +36,20 @@ body {
   background-color: #454545;
   cursor: pointer;
 }
+
+.initial {
+  height: 10%;
+  margin: 0 7%;
+  padding: 10% 0;
+  vertical-align: center;
+  line-height: 36px;
+}
+
+img.logo {
+  transform: translate(170%);
+}
+
+.initial ol,
+.close-btn {
+  visibility: hidden;
+}
