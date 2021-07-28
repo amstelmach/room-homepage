@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Spartan", sans-serif;
 }
 
 .nav-photo {
@@ -37,11 +38,11 @@ body {
   cursor: pointer;
 }
 
-.initial {
+.navigation {
   height: 10%;
-  margin: 0 7%;
-  padding: 10% 0;
-  vertical-align: center;
+  margin: 0;
+  padding: 10% 7%;
+  /* vertical-align: center; */
   line-height: 36px;
 }
 
@@ -49,7 +50,15 @@ img.logo {
   transform: translate(170%);
 }
 
-.initial ol,
-.close-btn {
-  visibility: hidden;
+ol.options {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-transform: lowercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+img.close-btn {
+  color: red;
 }
