@@ -99,3 +99,35 @@ li.option {
   font-weight: 700;
   margin-right: 10px;
 }
+
+.article {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  max-width: 85%;
+}
+
+.article__header {
+  font-size: 25px;
+  font-weight: 700;
+
+  margin-bottom: 0.1rem;
+}
+
+.article__content {
+  color: #a1a1a1;
+  line-height: 1.2rem;
+  font-size: 12px;
+}
+
+.article__link {
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+}
+
+.article__link--image {
+  margin-left: 1.5rem;
+}
