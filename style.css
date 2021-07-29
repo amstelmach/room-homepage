@@ -89,6 +89,13 @@ ol.options {
   transition: 2s; */
 }
 
-.option {
-  letter-spacing: 0.5px;
+img.close-btn {
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+li.option {
+  letter-spacing: 0.1px;
+  font-weight: 700;
+  margin-right: 10px;
 }
