@@ -15,6 +15,14 @@
     <title>Frontend Mentor | Room homepage</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="main.js"></script>
     <style>
       .attribution {
         font-size: 11px;
@@ -27,26 +35,34 @@
   </head>
   <body>
     <div class="nav-photo">
-      <nav>
-        <img src="images/icon-hamburger.svg" />
-        <img src="images/icon-close.svg" />
-        <img src="images/logo.svg" />
-        <ol class="menu extended">
-          <li>Home</li>
-          <li>Shop</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ol>
-      </nav>
-      <div class="arrow-navigation">
-        <div class="arrow left">
-          <img src="images/icon-angle-left.svg" />
-        </div>
-        <div class="arrow right">
-          <img src="images/icon-angle-right.svg" />
+      <nav class="navigation">
+        <img class="hamburger-menu" src="images/icon-hamburger.svg" />
+        <img class="logo" src="images/logo.svg" />
+
+        <div class="arrow-navigation">
+          <div class="arrow">
+            <img src="images/icon-angle-left.svg" />
+          </div>
+          <div class="arrow">
+            <img src="images/icon-angle-right.svg" />
+          </div>
         </div>
       </div>
-    </div>
+        <div class="menu">
+          <div class="menu-content">
+            
+            <ol class="options">
+              <li><img class="close-btn" src="images/icon-close.svg" /></li>
+              <li class="option">Home</li>
+              <li class="option">Shop</li>
+              <li class="option">About</li>
+              <li class="option">Contact</li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      
+    
 
     <article class="first">
       <h1>
