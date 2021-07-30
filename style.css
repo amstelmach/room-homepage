@@ -56,6 +56,21 @@ body {
   cursor: pointer;
 }
 
+.menu {
+  margin: 0;
+  position: absolute;
+  width: 375px;
+  box-sizing: border-box;
+  padding: 10% 5%;
+  list-style-type: none;
+  display: flex;
+  /* flex-grow: 1; */
+}
+
+.menu li:nth-of-type(2) {
+  margin: 0 auto;
+}
+
 /* .nav-photo {
   background-image: url(images/mobile-image-hero-1.jpg);
   background-repeat: no-repeat;
