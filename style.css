@@ -3,7 +3,37 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
-.nav-photo {
+.banner {
+  position: relative;
+  width: 100%;
+  height: 360px;
+}
+
+.banner__imgBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner__imgBg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: 0.5s;
+  background-position: center;
+}
+
+.banner__imgBg img.active {
+  opacity: 1;
+}
+
+/* .nav-photo {
   background-image: url(images/mobile-image-hero-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,11 +72,11 @@ body {
   height: 10%;
   margin: 0;
   padding: 10% 7%;
-  /* vertical-align: center; */
-  line-height: 36px;
-}
+  vertical-align: center; */
+/* line-height: 36px; */
+/* } */
 
-img.logo {
+/* img.logo {
   transform: translate(170%);
 }
 
@@ -62,34 +92,32 @@ ol.options {
   margin-block-end: 0;
   padding-inline-start: 0;
   margin: 0;
-}
+} */
 
-.menu {
+/* .menu {
   display: none;
+  position: relative;
 }
 
 .show-menu {
   display: block;
-  transition: all 0.5s ease;
-  /* animation-timing-function: ease-in-out;
-  animation-duration: 1s;
-  animation-iteration-count: 1; */
 }
 
-.menu-content {
+.menu__bar {
   width: 375px;
   height: 110px;
   background-color: white;
   position: absolute;
   top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* transition-timing-function: ease-in;
   transition: 2s; */
-}
+/* } */
 
-img.close-btn {
+/* img.close-btn {
   margin-left: 20px;
   margin-right: 50px;
 }
@@ -98,7 +126,7 @@ li.option {
   letter-spacing: 0.1px;
   font-weight: 700;
   margin-right: 10px;
-}
+} */
 
 .article {
   display: flex;
