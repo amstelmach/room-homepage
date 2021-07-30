@@ -33,6 +33,29 @@ body {
   opacity: 1;
 }
 
+.arrow-controls {
+  position: absolute;
+  width: 30%;
+  height: 15%;
+  top: 85%;
+  right: 0;
+  background-color: black;
+  display: flex;
+}
+
+.arrow {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow:hover {
+  background-color: #454545;
+  cursor: pointer;
+}
+
 /* .nav-photo {
   background-image: url(images/mobile-image-hero-1.jpg);
   background-repeat: no-repeat;
