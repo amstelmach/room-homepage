@@ -1,12 +1,12 @@
-const hamburgerMenu = document.querySelector(".hamburger-menu");
+const hamburgerMenu = document.querySelector(".menu__hamburger");
 
-const menuElement = document.querySelector(".menu");
+const menuElement = document.querySelector(".menu-fixed");
 
 const exitBtn = document.querySelector(".close-btn");
 
 const body = document.querySelector("body");
 
-let isOpen = false;
+// let isOpen = false;
 
 hamburgerMenu.addEventListener("click", function () {
   menuElement.classList.add("show-menu");
