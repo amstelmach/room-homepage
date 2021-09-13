@@ -29,7 +29,7 @@ body {
   background-position: center;
 }
 
-.banner__imgBg img.active {
+img.active {
   opacity: 1;
 }
 
