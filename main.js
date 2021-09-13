@@ -31,3 +31,52 @@ document.addEventListener(
   },
   true
 );
+
+document.querySelector(".image").classList.add("active");
+
+const nextBtn = document.querySelector(".arrow__right");
+
+const prevBtn = document.querySelector(".arrow__left");
+
+const images = document.querySelector(".banner__imgBg").children;
+
+const slides = document.querySelector(".slide").children;
+
+const totalImages = images.length;
+
+const totalSlides = slides.length;
+
+let index = 0;
+
+prevBtn.addEventListener("click", () => {
+  nextImage("next");
+});
+
+nextBtn.addEventListener("click", () => {
+  nextImage("prev");
+});
+
+function nextImage(direction) {
+  if (direction == "next") {
+    index++;
+    if (index == totalImages && index == totalSlides) {
+      index = 0;
+    }
+  } else {
+    if (index == 0) {
+      index = totalImages - 1 && totalSlides - 1;
+    } else {
+      index--;
+    }
+  }
+
+  for (let i = 0; i < images.length; i++) {
+    images[i].classList.remove("active");
+  }
+  images[index].classList.add("active");
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("visible");
+  }
+  slides[index].classList.add("visible");
+}
