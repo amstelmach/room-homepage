@@ -31,3 +31,41 @@ document.addEventListener(
   },
   true
 );
+
+// const nextBtn = document.querySelector(".arrow__right");
+// const prevBtn = document.querySelector(".arrow__left");
+// const currentPicture = document.querySelector(".active");
+
+// nextBtn.addEventListener("click", () => {
+//   console.log("next button added!");
+// });
+
+// prevBtn.addEventListener("click", () => {
+//   console.log("previous button added!");
+// });
+
+// nextBtn.addEventListener("click", showNextPicture);
+
+// function showNextPicture() {
+//   if (currentPicture.classList.contains("active")) {
+//     currentPicture.classList.remove("active");
+//     currentPicture.nextElementSibling.classList.add("active");
+//   }
+// }
+
+// prevBtn.addEventListener("click", showPrevPicture);
+
+// function showPrevPicture() {
+//   if (currentPicture.classList.contains("active")) {
+//     currentPicture.classList.remove("active");
+//     currentPicture.previousElementSibling.classList.add("active");
+//   }
+// }
+
+document.querySelector(".image").classList.add("active");
+
+document.querySelector(".arrow__right").addEventListener("click", () => {
+  const currentActive = document.querySelector(".active");
+  currentActive.classList.remove("active");
+  currentActive.nextElementSibling.classList.add("active");
+});
