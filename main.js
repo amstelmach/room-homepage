@@ -70,9 +70,11 @@ const prevBtn = document.querySelector(".arrow__left");
 
 const images = document.querySelector(".banner__imgBg").children;
 
-// const slides =
+const slides = document.querySelector(".slide").children;
 
 const totalImages = images.length;
+
+const totalSlides = slides.length;
 
 let index = 0;
 
@@ -87,12 +89,12 @@ nextBtn.addEventListener("click", () => {
 function nextImage(direction) {
   if (direction == "next") {
     index++;
-    if (index == totalImages) {
+    if (index == totalImages && index == totalSlides) {
       index = 0;
     }
   } else {
     if (index == 0) {
-      index = totalImages - 1;
+      index = totalImages - 1 && totalSlides - 1;
     } else {
       index--;
     }
@@ -102,6 +104,11 @@ function nextImage(direction) {
     images[i].classList.remove("active");
   }
   images[index].classList.add("active");
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("visible");
+  }
+  slides[index].classList.add("visible");
 }
 
 // nextBtn.addEventListener("click", () => {
