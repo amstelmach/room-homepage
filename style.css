@@ -199,11 +199,20 @@ li.option {
   margin-right: 10px;
 } */
 
-.article {
+.article,
+.main-article {
   display: flex;
   flex-direction: column;
   margin: 3rem auto;
   max-width: 85%;
+}
+
+.main-article {
+  display: none;
+}
+
+.visible {
+  display: block;
 }
 
 .article__header {
