@@ -64,8 +64,48 @@ document.addEventListener(
 
 document.querySelector(".image").classList.add("active");
 
-document.querySelector(".arrow__right").addEventListener("click", () => {
-  const currentActive = document.querySelector(".active");
-  currentActive.classList.remove("active");
-  currentActive.nextElementSibling.classList.add("active");
+const nextBtn = document.querySelector(".arrow__right");
+
+const prevBtn = document.querySelector(".arrow__left");
+
+const images = document.querySelector(".banner__imgBg").children;
+
+// const slides =
+
+const totalImages = images.length;
+
+let index = 0;
+
+prevBtn.addEventListener("click", () => {
+  nextImage("next");
 });
+
+nextBtn.addEventListener("click", () => {
+  nextImage("prev");
+});
+
+function nextImage(direction) {
+  if (direction == "next") {
+    index++;
+    if (index == totalImages) {
+      index = 0;
+    }
+  } else {
+    if (index == 0) {
+      index = totalImages - 1;
+    } else {
+      index--;
+    }
+  }
+
+  for (let i = 0; i < images.length; i++) {
+    images[i].classList.remove("active");
+  }
+  images[index].classList.add("active");
+}
+
+// nextBtn.addEventListener("click", () => {
+//   const currentActive = document.querySelector(".active");
+//   currentActive.classList.remove("active");
+//   currentActive.nextElementSibling.classList.add("active");
+// });
