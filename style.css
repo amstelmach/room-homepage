@@ -193,9 +193,6 @@ img.active {
     display: grid;
     grid-template-rows: 534px 266px 15px;
     grid-template-columns: 440px repeat(4, 150px) 440px;
-    /* width: 1440px;
-    height: 100vh; */
-
     margin: 0 auto;
   }
 
@@ -210,15 +207,7 @@ img.active {
     position: relative;
     width: auto;
     height: 534px;
-    /* height: 100%; */
-    /* object-fit: cover; */
   }
-
-  /* .banner__imgBg {
-    position: absolute;
-    top: 0;
-    left: 0;
-  } */
 
   .banner__imgBg > img {
     position: absolute;
@@ -230,20 +219,6 @@ img.active {
 
     transition: 0.5s;
   }
-
-  /* .banner__imgBg:nth-child(1),
-  .banner__imgBg:nth-child(2),
-  .banner__imgBg:nth-child(3) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-    transition: 0.5s;
-    /* background-position: center; */
-  /* }  */
 
   .banner__imgBg img:nth-of-type(1) {
     content: url(images/desktop-image-hero-1.jpg);
@@ -316,8 +291,6 @@ img.active {
     background-color: initial;
     top: 45px;
     left: 110px;
-
-    /* transition: 0.25s; */
   }
 
   .menu-fixed__options li > img {
