@@ -386,4 +386,22 @@ img.active {
   .article__link--image {
     margin-left: 1.5rem;
   }
+
+  .arrow-controls {
+    position: absolute;
+    width: 136px;
+    height: 14%;
+    top: 86%;
+    right: -136px;
+    background-color: black;
+    display: flex;
+  }
+
+  .arrow {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
