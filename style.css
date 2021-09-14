@@ -286,7 +286,7 @@ img.active {
 
   .item-f {
     grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 11;
     grid-row-start: 3;
     grid-row-end: 4;
   }
@@ -426,5 +426,13 @@ img.active {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .footer {
+    justify-content: flex-end;
+  }
+  .footer__container {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
