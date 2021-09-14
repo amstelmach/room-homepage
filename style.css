@@ -146,6 +146,10 @@ img.active {
   letter-spacing: 0.5rem;
 }
 
+.article__link:hover {
+  color: #a1a1a1;
+}
+
 .article__link--image {
   margin-left: 1.5rem;
 }
