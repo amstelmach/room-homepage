@@ -339,6 +339,18 @@ img.active {
     font-weight: 500;
     font-size: 13px;
     color: white;
+    position: relative;
+  }
+
+  .menu-fixed__options li a:hover::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 0.175rem;
+    background: white;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .menu-fixed__options li:nth-of-type(2) {
