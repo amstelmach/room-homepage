@@ -144,6 +144,7 @@ img.active {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.5rem;
+  cursor: pointer;
 }
 
 .article__link:hover {
