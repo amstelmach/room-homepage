@@ -258,6 +258,22 @@ img.active {
     grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 3;
+    justify-content: center;
+  }
+
+  h2.article__header--small {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.3rem;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+
+  article.item-d .article__content {
+    color: #a1a1a1;
+    line-height: 1.2rem;
+    font-size: 12px;
+    margin: 0;
   }
 
   .item-e {
@@ -341,8 +357,15 @@ img.active {
 
   .article,
   .main-article {
-    max-width: 75%;
     margin: 0 auto;
+  }
+
+  .main-article {
+    max-width: 70%;
+  }
+
+  .article {
+    max-width: 85%;
   }
 
   .main-article {
