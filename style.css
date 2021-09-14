@@ -191,7 +191,7 @@ img.active {
 @media screen and (min-width: 400px) {
   body {
     display: grid;
-    grid-template-rows: 534px 266px 15px;
+    grid-template-rows: 534px 266px 25px;
     grid-template-columns: repeat(10, 144px);
     margin: 0 auto;
   }
@@ -250,6 +250,7 @@ img.active {
 
   .photo img {
     width: 440px;
+    height: 266px;
   }
 
   .item-d {
