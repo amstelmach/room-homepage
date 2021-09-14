@@ -189,7 +189,16 @@ img.active {
 }
 
 @media screen and (min-width: 400px) {
-  body {
+  /* body {
+    display: grid;
+    grid-template-rows: 534px 266px 25px;
+    grid-template-columns: repeat(10, 144px);
+    margin: 0 auto;
+  } */
+
+  .container {
+    height: 825px;
+    width: 1440px;
     display: grid;
     grid-template-rows: 534px 266px 25px;
     grid-template-columns: repeat(10, 144px);
