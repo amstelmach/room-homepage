@@ -264,6 +264,7 @@ img.active {
     grid-column-end: 11;
     grid-row-start: 2;
     grid-row-end: 3;
+    justify-self: end;
   }
 
   .item-f {
