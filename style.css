@@ -428,8 +428,8 @@ img.active {
   .arrow-controls {
     position: absolute;
     width: 136px;
-    height: 14%;
-    top: 86%;
+    height: 15%;
+    top: 85%;
     right: -136px;
     background-color: black;
     display: flex;
