@@ -148,7 +148,8 @@ img.active {
 }
 
 .article__link:hover {
-  color: #a1a1a1;
+  filter: invert(67%) sepia(10%) saturate(18%) hue-rotate(314deg)
+    brightness(97%) contrast(82%);
 }
 
 .article__link--image {
