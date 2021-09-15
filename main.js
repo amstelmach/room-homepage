@@ -34,9 +34,9 @@ document.addEventListener(
 
 document.querySelector(".image").classList.add("active");
 
-const nextBtn = document.querySelector(".arrow__right");
+const nextBtn = document.querySelector(".arrow__arearight");
 
-const prevBtn = document.querySelector(".arrow__left");
+const prevBtn = document.querySelector(".arrow__arealeft");
 
 const images = document.querySelector(".banner__imgBg").children;
 
