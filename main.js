@@ -49,11 +49,11 @@ const totalSlides = slides.length;
 let index = 0;
 
 prevBtn.addEventListener("click", () => {
-  nextImage("next");
+  nextImage("prev");
 });
 
 nextBtn.addEventListener("click", () => {
-  nextImage("prev");
+  nextImage("next");
 });
 
 function nextImage(direction) {
