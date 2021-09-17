@@ -14,7 +14,6 @@ Users should be able to:
 
 ![Desktop view](screenshot/desktop_view.png "Desktop view")
 ![Mobile view](screenshot/mobile_view.png "Mobile view")
-![Mobile view with extended menu](screenshot/mobile_view_with_menu_extended.png "Mobile view with extended menu")
 
 ## Links
 
