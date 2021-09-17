@@ -2,23 +2,21 @@
 
 This is a solution to the [Room homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq).
 
-## Overview
-
-tbc
-
-### The challenge
+## The challenge
 
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
-- Navigate the slider using either their mouse/trackpad or keyboard
+- Navigate the slider using their mouse/trackpad
 
-### Screenshot
+## Screenshot
 
-tbc
+![Desktop view](screenshot/desktop_view.png "Desktop view")
+![Mobile view](screenshot/mobile_view.png "Mobile view")
+![Mobile view with extended menu](screenshot/mobile_view_with_menu_extended.png "Mobile view with extended menu")
 
-### Links
+## Links
 
 Live Site URL: https://amstelmach.github.io/room-homepage/
 
@@ -39,4 +37,4 @@ tbc
 
 ### Further development
 
-- Slider navigation using keyboard
+- Page responsive for iPads
