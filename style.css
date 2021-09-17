@@ -3,6 +3,11 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 375px;
+}
+
 .banner {
   position: relative;
   width: 375px;
@@ -194,7 +199,7 @@ img.active {
   color: #2e4053;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
   .container {
     height: 825px;
     width: 1440px;
