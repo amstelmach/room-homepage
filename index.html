@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,7 +25,7 @@
   <body>
     <div class="container">
       <section class="banner item-a">
-        <div class="banner__imgBg" role="Main images container">
+        <div class="banner__imgBg" role="banner">
           <img
             src="images/mobile-image-hero-1.jpg"
             class="image active"
@@ -51,7 +51,7 @@
               alt="Image representing a button to open a menu of the shape of three horizontally positioned lines"
             />
           </li>
-          <li role="Company logo placeholder">
+          <li role="img">
             <img
               class="menu__logo"
               src="images/logo.svg"
@@ -69,17 +69,14 @@
                 alt="Image representing a button to close a menu of the shape of x-mark"
               />
             </li>
-            <li role="Link to home page"><a href="#">home</a></li>
-            <li role="Link to shop page"><a href="#">shop</a></li>
-            <li role="Link to about page"><a href="#">about</a></li>
-            <li role="Link to contact page"><a href="#">contact</a></li>
+            <li role="link"><a href="#">home</a></li>
+            <li role="link"><a href="#">shop</a></li>
+            <li role="link"><a href="#">about</a></li>
+            <li role="link"><a href="#">contact</a></li>
           </ol>
         </div>
 
-        <div
-          class="arrow-controls"
-          role="Container with left and right arrows to navigate between articles"
-        >
+        <div class="arrow-controls" role="navigation">
           <div class="arrow arrow__arealeft">
             <img
               class="arrow__left"
@@ -98,7 +95,7 @@
       </section>
 
       <div class="slide item-b">
-        <article class="main-article visible" role="Main article">
+        <article class="main-article visible" role="article">
           <h1 class="article__header">Discover innovative ways to decorate</h1>
           <p class="article__content">
             We provide unmatched quality, comfort, and style for property owners
@@ -182,14 +179,14 @@
         </article>
       </div>
 
-      <div class="photo item-c" role="Side small photo">
+      <div class="photo item-c" role="banner">
         <img
           src="images/image-about-dark.jpg"
           alt="Dark picture of room full of furnitures"
         />
       </div>
 
-      <article class="article item-d" role="Side article">
+      <article class="article item-d" role="article">
         <h2 class="article__header article__header--small">
           About our furniture
         </h2>
@@ -203,7 +200,7 @@
         </p>
       </article>
 
-      <div class="photo item-e" role="Side small photo">
+      <div class="photo item-e" role="banner">
         <img
           src="images/image-about-light.jpg"
           alt="Bright picture of a single white chair"
