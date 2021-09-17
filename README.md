@@ -14,7 +14,7 @@ Users should be able to:
 
 ## Screenshot
 
-![Desktop view](screenshot/desktop_view.png "Desktop view")
+![Desktop view](screenshot/deskop_view.png "Desktop view")
 
 ![Mobile view](screenshot/mobile_view.png "Mobile view")
 
