@@ -16,6 +16,8 @@ Users should be able to:
 
 ![Desktop view](screenshot/desktop_view.png "Desktop view")
 
+![Mobile view](screenshot/mobile_view.png "Mobile view")
+
 ## Links
 
 Live Site URL: https://amstelmach.github.io/room-homepage/
