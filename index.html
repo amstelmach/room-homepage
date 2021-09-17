@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,7 +13,6 @@
 
     <title>Frontend Mentor | Room homepage</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,54 +21,84 @@
       rel="stylesheet"
     />
     <script defer src="main.js"></script>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="container">
       <section class="banner item-a">
-        <div class="banner__imgBg">
-          <img src="images/mobile-image-hero-1.jpg" class="image active" />
-          <img src="images/mobile-image-hero-2.jpg" class="image" />
-          <img src="images/mobile-image-hero-3.jpg" class="image" />
+        <div class="banner__imgBg" role="Main images container">
+          <img
+            src="images/mobile-image-hero-1.jpg"
+            class="image active"
+            alt="Table with a plant on it and chairs aside"
+          />
+          <img
+            src="images/mobile-image-hero-2.jpg"
+            class="image"
+            alt="Three colorful chairs"
+          />
+          <img
+            src="images/mobile-image-hero-3.jpg"
+            class="image"
+            alt="Single black chair"
+          />
         </div>
 
         <ol class="menu">
           <li>
-            <img class="menu__hamburger" src="images/icon-hamburger.svg" />
+            <img
+              class="menu__hamburger"
+              src="images/icon-hamburger.svg"
+              alt="Image representing a button to open a menu of the shape of three horizontally positioned lines"
+            />
           </li>
-          <li><img class="menu__logo" src="images/logo.svg" /></li>
+          <li role="Company logo placeholder">
+            <img
+              class="menu__logo"
+              src="images/logo.svg"
+              alt="Logo of the furniture company"
+            />
+          </li>
         </ol>
 
         <div class="menu-fixed">
           <ol class="menu-fixed__options">
-            <li><img class="close-btn" src="images/icon-close.svg" /></li>
-            <li><a href="#">home</a></li>
-            <li><a href="#">shop</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
+            <li>
+              <img
+                class="close-btn"
+                src="images/icon-close.svg"
+                alt="Image representing a button to close a menu of the shape of x-mark"
+              />
+            </li>
+            <li role="Link to home page"><a href="#">home</a></li>
+            <li role="Link to shop page"><a href="#">shop</a></li>
+            <li role="Link to about page"><a href="#">about</a></li>
+            <li role="Link to contact page"><a href="#">contact</a></li>
           </ol>
         </div>
 
-        <div class="arrow-controls">
+        <div
+          class="arrow-controls"
+          role="Container with left and right arrows to navigate between articles"
+        >
           <div class="arrow arrow__arealeft">
-            <img class="arrow__left" src="images/icon-angle-left.svg" />
+            <img
+              class="arrow__left"
+              src="images/icon-angle-left.svg"
+              alt="Arrow left"
+            />
           </div>
           <div class="arrow arrow__arearight">
-            <img class="arrow__right" src="images/icon-angle-right.svg" />
+            <img
+              class="arrow__right"
+              src="images/icon-angle-right.svg"
+              alt="Arrow right"
+            />
           </div>
         </div>
       </section>
 
       <div class="slide item-b">
-        <article class="main-article visible">
+        <article class="main-article visible" role="Main article">
           <h1 class="article__header">Discover innovative ways to decorate</h1>
           <p class="article__content">
             We provide unmatched quality, comfort, and style for property owners
@@ -82,7 +110,18 @@
           <p class="article__link">
             shop now
             <span class="article__link--arrow">
-              <img class="article__link--image" src="images/icon-arrow.svg" />
+              <svg
+                class="article__link--image"
+                width="40"
+                height="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+                  fill="#000"
+                  fill-rule="nonzero"
+                />
+              </svg>
             </span>
           </p>
         </article>
@@ -98,7 +137,18 @@
           <p class="article__link">
             shop now
             <span class="article__link--arrow">
-              <img class="article__link--image" src="images/icon-arrow.svg" />
+              <svg
+                class="article__link--image"
+                width="40"
+                height="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M34.05 0l5.481 5.527h.008v.008L40 6l-.461.465v.063l-.062-.001L34.049 12l-.662-.668 4.765-4.805H0v-1h38.206l-4.82-4.86L34.05 0z"
+                  fill="#000"
+                  fill-rule="nonzero"
+                />
+              </svg>
             </span>
           </p>
         </article>
@@ -132,11 +182,14 @@
         </article>
       </div>
 
-      <div class="photo item-c">
-        <img src="images/image-about-dark.jpg" />
+      <div class="photo item-c" role="Side small photo">
+        <img
+          src="images/image-about-dark.jpg"
+          alt="Dark picture of room full of furnitures"
+        />
       </div>
 
-      <article class="article item-d">
+      <article class="article item-d" role="Side article">
         <h2 class="article__header article__header--small">
           About our furniture
         </h2>
@@ -150,8 +203,11 @@
         </p>
       </article>
 
-      <div class="photo item-e">
-        <img src="images/image-about-light.jpg" />
+      <div class="photo item-e" role="Side small photo">
+        <img
+          src="images/image-about-light.jpg"
+          alt="Bright picture of a single white chair"
+        />
       </div>
 
       <footer class="footer item-f">
