@@ -5,7 +5,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 375px;
+  width: 375px;
 }
 
 .banner {
@@ -206,7 +206,6 @@ img.active {
     display: grid;
     grid-template-rows: 534px 266px 25px;
     grid-template-columns: repeat(10, 144px);
-    margin: 0 auto;
   }
 
   .banner.item-a {
